@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Backend server in Node JS for the notes app",
   "main": "src/index.ts",
-  "type": "module",
   "scripts": {
     "start": "npx nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
