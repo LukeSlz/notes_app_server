@@ -6,7 +6,7 @@ import { PrismaClient } from "@prisma/client";
 //Express init
 const app = express();  
   //Port
-const PORT: number = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(cors());
